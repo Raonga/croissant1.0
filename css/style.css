@@ -7,27 +7,21 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  background-color: plum;
 }
 
-h1 {
-  text-align: center;
-  margin: 0;
-  font-size: 96px;
-}
+h1,
 p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
   text-align: center;
-  display: flex;
 }
-image {
-  display: flex;
-  margin: 0;
-  padding: 0;
+
+.image {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
+
 a {
   display: flex;
   margin-top: 40px;
